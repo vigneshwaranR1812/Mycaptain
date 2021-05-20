@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>La Bonne Nuit</title>
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="main">
+	<header>
+		
+		<div>
+			<ul><li><a href="#">Home</a></li>
+				<li><a href="#">Reserve</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Login/SignUp</a></li>
+			</ul>
+		</div>
+
+	</header>
+	<div class="message-box">
+		<h1>La Bonne Nuit</h1>
+		<p>Mothing brinng people together like agood food<br>
+		There is no love sincerer than the love of food</p>
+		<a href="#">Reserve Now</a>
+	</div>
+	</section>
+	<section class="events">
+		<h2>Events</h2>
+		<div class="row">
+			<div class="col">
+
+				<img src="image/party.jpg">
+				<div class="cover">
+				<h4>Party</h4>
+			</div>
+		</div>
+			<div class="col">
+				<img src="image/meeting.jpg">
+				<div class="cover">
+				<h4>Meeting</h4>
+			</div>
+
+			</div>
+			<div class="col">
+				<img src="image/family.jpg">
+				<div class="cover">
+				<h4>Family</h4>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="category">
+		<h2>Category</h2>
+		<div class="row">
+			<div class="col">
+				<img src="image/indian.jpg">
+				
+					<h4>Indian Food</h4>
+				
+			</div>
+			<div class="col">
+				<img src="image/china.jpg">
+				
+					
+					<h4>Chinese Food</h4>
+				
+			</div>
+		</div>
+			<div class="row">
+			<div class="col">
+				<img src="image/thai.jpg">
+				
+					<h4>Thai Food</h4>
+				
+			</div>
+			<div class="col">
+				<img src="image/italy.jpg">
+				
+					<h4>ItalianFood</h4>
+				
+			</div>
+		</div>
+			</div>
+	</section>
+	<section class="reserve">
+		<h2>Reseve Now!!!</h2>
+		<div class="row">
+			<div class="col">
+				
+		<P><span>50%</span>Off<br>
+		For every Reservation</P>
+		<br><br>
+		<a href="#">Reserve</a>
+		</div>
+			<div class="col">
+				<img src="image/ban.png">
+		</div>
+	</div>
+		
+	</section>
+	<section class="events">
+		<h2>Features</h2>
+		<div class="row">
+			<div class="col">
+
+				<img src="image/bartender.jpg">
+				<div class="cover">
+				<h4>Bar</h4>
+			</div>
+		</div>
+			<div class="col">
+				<img src="image/games.jpg">
+				<div class="cover">
+				<h4>Casino</h4>
+			</div>
+
+			</div>
+			<div class="col">
+				<img src="image/food.jpg">
+				<div class="cover">
+				<h4>Food</h4>
+			</div>
+			</div>
+		</div>
+	</section>
+<section id="reserve">
+<h1>Reserve For You</h1>
+
+	<form autocomplete="off"> 
+		<div class="form">
+		<div class="col">
+				<label for="name">FullName</label>
+				<input type="text" id="name" name="fullname" title="Fullname" required>
+			</div>
+		<div class="col">
+				<label for="date">Date</label>
+				<input type="date" id="date" name="date" title="Date"  required >
+			</div>
+			<div class="col">
+				<label for="location">Location</label>
+					<input list="location" name="location" required>
+  					<datalist id="location">
+						    <option value="chennai">
+						    <option value="Bangalore">
+						    <option value="Mumbai">
+						    <option value="Kolkata">
+						    <option value="pune">
+						  </datalist>
+			</div>
+			<div class="col">
+				<label for="number">Phone Number</label>
+				<input type="tel" id="number" name="number" title="Phone Number" pattern="[0-9]{10}"  required>
+			</div>
+			<div class="col">
+				<label for="nopeople">Number of Persons<span>(599/per)</span></label>
+				<input type="number" id="nopeople" name="numberofpeople" title="Number Of People" max="12" required>
+			</div>
+			<div class="col">
+				<label for="amount">Amount</label>
+				<input type="number" id="amount" name="amount" title="Amount"  required>
+			</div>
+			</div>
+			<div class="button">
+				<input id="reservebtn" type="submit" onclick="calculate()" value="Reserve Now" >
+			</div>
+		</form>
+</section>
+	<section id="testimonial">
+		<div class= "text">
+			<h1>What Customer Says</h1>
+		</div>
+		<div class="testi-row">
+				<div class="test-col">
+					<div class="user">
+					<img src="image/img-1.jpg">
+					<div class="user-info">
+							<h4>HENRYMORGAN <i class="fa fa-twitter"></i></h4>
+							<small>@hernyboy</small>
+					</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et .
+				</div>
+				<div class="test-col">
+					<div class="user">
+					<img src="image/img-2.jpg">
+					<div class="user-info">
+							<h4>CHLOE DECKER <i class="fa fa-twitter"></i></h4>
+							<small>@chloee</small>
+					</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et .
+				</div>
+				<div class="test-col">
+					<div class="user">
+					<img src="image/img-3.jpg">
+					<div class="user-info">
+							<h4>LUCIFER MORNINGSTAR <i class="fa fa-twitter"></i></h4>
+							<small>@lucistar</small>
+					</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et .
+				</div>
+		</div>
+	</section>
+	<Footer>
+		<div class="row">
+			<div class="col">
+				<h3>Contact us</h3>
+				<p>463573547354</p>
+				<p>Vignesh@gmail.com</p>
+				<p>Find a shop</p>
+			</div>
+			<div class="col">
+				<h3>Services</h3>
+				<p>contact us</p>
+				<p>Ordering and payment</p>
+				<p>Returns</p>
+				<p>FAQ's</p>
+			</div>
+			<div class="col">
+				<h3>Information</h3>
+				<p>Restaurent Policy</p>
+				<p>Terms and condition</p>
+				<p>Press Enquires</p>
+			</div>
+		</div>
+		
+	</Footer>
+
+</body>
+</html>
